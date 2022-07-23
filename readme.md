@@ -1,14 +1,22 @@
 # gitconfig
 
-Cherry pick parts from this repository for your own config.
+Cherry pick parts from this repository for your own config.  
+Assuming you've cloned this repository to `~/project/gitconfig` add
+these lines to your `~/.gitconfig`:
 
-```.gitconfig
+```conf
+...
 [include]
-  path = git/alias.conf
+  path = ~/project/gitconfig/core.conf
+  path = ~/project/gitconfig/alias.conf
+  path = ~/project/gitconfig/pretty.conf
+...
 ```
 Or use all of it.
 
 ```.gitconfig
+...
 [include]
-  path = git/main.conf
+  path = ~/project/gitconfig/main.conf
+...
 ```

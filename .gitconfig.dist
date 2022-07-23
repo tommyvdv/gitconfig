@@ -1,0 +1,7 @@
+[user]
+  name = Your Name
+  email = your@name.test
+[include]
+  path = ~/project/gitconfig/core.conf
+  path = ~/project/gitconfig/alias.conf
+  path = ~/project/gitconfig/pretty.conf
